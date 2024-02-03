@@ -1,7 +1,6 @@
-import { greetUser } from '$utils/greet';
+import { modal } from '$dg/modal';
 
 window.Webflow ||= [];
 window.Webflow.push(() => {
-  const name = 'John Doe';
-  greetUser(name);
+  modal();
 });
